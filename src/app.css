@@ -45,3 +45,35 @@ a:visited:hover {
   color: inherit;
   text-decoration: underline;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  gap: 1.5rem;
+  max-width: 60em;
+  margin: 2rem auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  max-width: none;
+  flex: 1;
+}
+
+.card a {
+  margin-top: auto;
+}

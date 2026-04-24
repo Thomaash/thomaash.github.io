@@ -64,21 +64,39 @@
   {t(lang, "bio")}
 </p>
 
-<p>
-  {t(lang, "contact_intro")}
-  <a rel="noopener" href="mailto:tomas@vycital.eu">{t(lang, "email_label")}</a>,
-  <a rel="noopener me" href="https://toot.community/@tomina"
-    >{t(lang, "mastodon_label")}</a
-  >
-  {t(lang, "contact_or")}
-  <a rel="noopener me" href="https://bsky.app/profile/vycital.eu"
-    >{t(lang, "bluesky_label")}</a
-  >, {t(lang, "contact_foss")}
-  <a rel="noopener me" href="https://github.com/Thomaash"
-    >{t(lang, "github_label")}</a
-  >
-  {t(lang, "contact_career")}
-  <a rel="noopener me" href="https://www.linkedin.com/in/tomas-vycital"
-    >{t(lang, "linkedin_label")}</a
-  >.
-</p>
+<div class="card-grid">
+  <div class="card">
+    <h2>{t(lang, "email_heading")}</h2>
+    <p>{t(lang, "email_desc")}</p>
+    <a rel="noopener" href="mailto:tomas@vycital.eu">{t(lang, "email_label")}</a
+    >
+  </div>
+  <div class="card">
+    <h2>{t(lang, "mastodon_heading")}</h2>
+    <p>{t(lang, "mastodon_desc")}</p>
+    <a rel="noopener me" href="https://toot.community/@tomina"
+      >{t(lang, "mastodon_label")}</a
+    >
+  </div>
+  <div class="card">
+    <h2>{t(lang, "bluesky_heading")}</h2>
+    <p>{t(lang, "bluesky_desc")}</p>
+    <a rel="noopener me" href="https://bsky.app/profile/vycital.eu"
+      >{t(lang, "bluesky_label")}</a
+    >
+  </div>
+  <div class="card">
+    <h2>{t(lang, "github_heading")}</h2>
+    <p>{t(lang, "github_desc")}</p>
+    <a rel="noopener me" href="https://github.com/Thomaash"
+      >{t(lang, "github_label")}</a
+    >
+  </div>
+  <div class="card">
+    <h2>{t(lang, "linkedin_heading")}</h2>
+    <p>{t(lang, "linkedin_desc")}</p>
+    <a rel="noopener me" href="https://www.linkedin.com/in/tomas-vycital"
+      >{t(lang, "linkedin_label")}</a
+    >
+  </div>
+</div>
