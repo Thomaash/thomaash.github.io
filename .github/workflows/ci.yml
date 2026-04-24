@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check:
@@ -59,6 +59,9 @@ jobs:
   deploy:
     needs: [check, format-check, build]
     if: github.ref == 'refs/heads/main'
+    concurrency:
+      group: deploy-pages
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     environment:
       name: github-pages
