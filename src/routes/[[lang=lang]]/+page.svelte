@@ -79,30 +79,6 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("mastodon_heading")}</h2>
-    <p class="text-base m-0 mb-4 max-w-none flex-1">
-      {$t("mastodon_desc")}
-    </p>
-    <a class="mt-auto" rel="noopener me" href="https://toot.community/@tomina"
-      >{$t("mastodon_label")}</a
-    >
-  </div>
-  <div
-    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
-  >
-    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("bluesky_heading")}</h2>
-    <p class="text-base m-0 mb-4 max-w-none flex-1">
-      {$t("bluesky_desc")}
-    </p>
-    <a
-      class="mt-auto"
-      rel="noopener me"
-      href="https://bsky.app/profile/vycital.eu">{$t("bluesky_label")}</a
-    >
-  </div>
-  <div
-    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
-  >
     <h2 class="text-xl font-semibold mt-0 mb-2">{$t("github_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("github_desc")}
@@ -122,6 +98,30 @@
       class="mt-auto"
       rel="noopener me"
       href="https://www.linkedin.com/in/tomas-vycital">{$t("linkedin_label")}</a
+    >
+  </div>
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("mastodon_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {$t("mastodon_desc")}
+    </p>
+    <a class="mt-auto" rel="noopener me" href="https://toot.community/@tomina"
+      >{$t("mastodon_label")}</a
+    >
+  </div>
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("bluesky_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {$t("bluesky_desc")}
+    </p>
+    <a
+      class="mt-auto"
+      rel="noopener me"
+      href="https://bsky.app/profile/vycital.eu">{$t("bluesky_label")}</a
     >
   </div>
 </div>
