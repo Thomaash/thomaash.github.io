@@ -56,11 +56,11 @@
   })}</script>`}
 </svelte:head>
 
-<h1 class="text-[4rem] my-[14rem] mx-auto max-w-[30em] text-center">
+<h1 class="text-[4rem] mt-[14rem] mb-8 text-center">
   {@html $t("greeting")}
 </h1>
 
-<p class="text-base my-8 mx-auto max-w-[30em]">
+<p class="text-base mt-8 mb-[14rem] text-center">
   {$t("bio")}
 </p>
 
