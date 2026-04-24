@@ -1,6 +1,6 @@
 {
   "greeting": "Hi there, I'm <ruby>Tomáš<rp>(</rp><rt>ˈtomaːʃ</rt><rp>)</rp></ruby> <ruby>Vyčítal<rp>(</rp><rt>ˈvɪtʃiːtal</rt><rp>)</rp></ruby>",
-  "bio": "Full-time TypeScript developer with focus on web frontends using Vue\u00a03 and Nuxt\u00a04, part-time FOSS maintainer.",
+  "bio": "TypeScript developer with focus on web frontends using Vue\u00a03 and Nuxt\u00a04, occasional FOSS contributor and maintainer.",
   "email_heading": "Email",
   "mastodon_heading": "Mastodon",
   "bluesky_heading": "Bluesky",
