@@ -6,7 +6,10 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3",
@@ -19,6 +22,7 @@
     "prettier": "^3.8.3",
     "prettier-plugin-svelte": "^3.5.1",
     "svelte": "^5",
+    "svelte-check": "^4.4.6",
     "tailwindcss": "^4.2.4",
     "typescript": "^5",
     "vite": "^8"
