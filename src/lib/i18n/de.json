@@ -1,0 +1,15 @@
+{
+  "greeting": "Hallo, ich bin",
+  "bio": "Vollzeit-TypeScript-Entwickler mit Fokus auf Web-Frontends mit Vue\u00a03 und Nuxt\u00a04, Teilzeit-FOSS-Maintainer.",
+  "contact_intro": "Sie können mich erreichen über",
+  "email_label": "E-Mail (tomas@vycital.eu)",
+  "mastodon_label": "Mastodon (@tomina)",
+  "bluesky_label": "Bluesky (@vycital.eu)",
+  "github_label": "GitHub (@Thomaash)",
+  "linkedin_label": "LinkedIn (Tomáš Vyčítal)",
+  "contact_or": "oder",
+  "contact_foss": "schauen Sie sich meine FOSS-Arbeit an auf",
+  "contact_career": "oder karrierebezogene Sachen auf",
+  "meta_title": "Tomáš Vyčítal",
+  "meta_description": "Tomáš Vyčítal"
+}

@@ -1,0 +1,15 @@
+{
+  "greeting": "Ahoj, já jsem",
+  "bio": "Vývojář TypeScriptu na plný úvazek se zaměřením na webové frontendy ve Vue\u00a03 a Nuxt\u00a04, na částečný úvazek správce FOSS.",
+  "contact_intro": "Můžete mě kontaktovat přes",
+  "email_label": "e-mail (tomas@vycital.eu)",
+  "mastodon_label": "Mastodon (@tomina)",
+  "bluesky_label": "Bluesky (@vycital.eu)",
+  "github_label": "GitHub (@Thomaash)",
+  "linkedin_label": "LinkedIn (Tomáš Vyčítal)",
+  "contact_or": "nebo",
+  "contact_foss": "podívejte se na mou FOSS práci na",
+  "contact_career": "nebo na kariérní záležitosti na",
+  "meta_title": "Tomáš Vyčítal",
+  "meta_description": "Tomáš Vyčítal"
+}
