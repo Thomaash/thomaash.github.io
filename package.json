@@ -15,8 +15,6 @@
     "@sveltejs/adapter-static": "^3",
     "@sveltejs/kit": "^2",
     "@tailwindcss/vite": "^4.2.4",
-    "@tolgee/format-icu": "^7.0.0",
-    "@tolgee/svelte": "^7.0.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
@@ -34,6 +32,8 @@
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
     "@fontsource-variable/source-sans-3": "^5.2.9",
-    "@fontsource-variable/source-serif-4": "^5.2.9"
+    "@fontsource-variable/source-serif-4": "^5.2.9",
+    "@tolgee/format-icu": "^7.0.0",
+    "@tolgee/svelte": "^7.0.0"
   }
 }
