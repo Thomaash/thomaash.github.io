@@ -67,14 +67,18 @@
 <div
   class="grid grid-cols-[repeat(auto-fit,minmax(16em,1fr))] gap-6 max-w-[60em] my-8 mx-auto"
 >
-  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
     <h2 class="text-[1.1rem] mt-0 mb-2">{$t("email_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">{$t("email_desc")}</p>
     <a class="mt-auto" rel="noopener" href="mailto:tomas@vycital.eu"
       >{$t("email_label")}</a
     >
   </div>
-  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
     <h2 class="text-[1.1rem] mt-0 mb-2">{$t("mastodon_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("mastodon_desc")}
@@ -83,7 +87,9 @@
       >{$t("mastodon_label")}</a
     >
   </div>
-  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
     <h2 class="text-[1.1rem] mt-0 mb-2">{$t("bluesky_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("bluesky_desc")}
@@ -94,7 +100,9 @@
       href="https://bsky.app/profile/vycital.eu">{$t("bluesky_label")}</a
     >
   </div>
-  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
     <h2 class="text-[1.1rem] mt-0 mb-2">{$t("github_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("github_desc")}
@@ -103,7 +111,9 @@
       >{$t("github_label")}</a
     >
   </div>
-  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+  <div
+    class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
+  >
     <h2 class="text-[1.1rem] mt-0 mb-2">{$t("linkedin_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("linkedin_desc")}
