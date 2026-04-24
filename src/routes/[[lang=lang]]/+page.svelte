@@ -70,7 +70,7 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-[1.1rem] mt-0 mb-2">{$t("email_heading")}</h2>
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("email_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">{$t("email_desc")}</p>
     <a class="mt-auto" rel="noopener" href="mailto:tomas@vycital.eu"
       >{$t("email_label")}</a
@@ -79,7 +79,7 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-[1.1rem] mt-0 mb-2">{$t("mastodon_heading")}</h2>
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("mastodon_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("mastodon_desc")}
     </p>
@@ -90,7 +90,7 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-[1.1rem] mt-0 mb-2">{$t("bluesky_heading")}</h2>
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("bluesky_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("bluesky_desc")}
     </p>
@@ -103,7 +103,7 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-[1.1rem] mt-0 mb-2">{$t("github_heading")}</h2>
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("github_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("github_desc")}
     </p>
@@ -114,7 +114,7 @@
   <div
     class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col rounded-lg"
   >
-    <h2 class="text-[1.1rem] mt-0 mb-2">{$t("linkedin_heading")}</h2>
+    <h2 class="text-xl font-semibold mt-0 mb-2">{$t("linkedin_heading")}</h2>
     <p class="text-base m-0 mb-4 max-w-none flex-1">
       {$t("linkedin_desc")}
     </p>
