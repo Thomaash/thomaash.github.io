@@ -15,7 +15,7 @@ export function getLocale(lang: string): string {
  * Get the base URL for a given language, with trailing slash.
  */
 export function getLangUrl(lang: string): string {
-  const base = "http://www.vycital.eu";
+  const base = "https://www.vycital.eu";
   if (lang === "en") return `${base}/`;
   return `${base}/${lang}/`;
 }
