@@ -1,8 +1,8 @@
-import type { Handle } from '@sveltejs/kit';
+import type { Handle } from "@sveltejs/kit";
 
 export const handle: Handle = async ({ event, resolve }) => {
-  const lang = event.params.lang ?? 'en';
+  const lang = event.params.lang ?? "en";
   return resolve(event, {
-    transformPageChunk: ({ html }) => html.replace('%lang%', lang)
+    transformPageChunk: ({ html }) => html.replace("%lang%", lang),
   });
 };

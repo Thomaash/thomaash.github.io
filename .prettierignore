@@ -1,5 +1,5 @@
-build/
-node_modules/
-.svelte-kit/
-pnpm-lock.yaml
-.pnpm-store/
+/.pnpm-store/
+/.svelte-kit/
+/build/
+/node_modules/
+/pnpm-lock.yaml

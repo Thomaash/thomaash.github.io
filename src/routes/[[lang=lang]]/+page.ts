@@ -1,11 +1,11 @@
-import type { PageLoad } from './$types';
+import type { PageLoad } from "./$types";
 
 export const load: PageLoad = ({ params }) => {
   return {
-    lang: params.lang ?? 'en'
+    lang: params.lang ?? "en",
   };
 };
 
 export function entries() {
-  return [{ lang: 'cs' }, { lang: 'de' }];
+  return [{ lang: "cs" }, { lang: "de" }];
 }

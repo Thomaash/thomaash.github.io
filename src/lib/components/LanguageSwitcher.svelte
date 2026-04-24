@@ -3,9 +3,24 @@
 </script>
 
 <nav aria-label="Language">
-  <a href="/cs/" lang="cs" aria-label="Čeština" aria-current={lang === 'cs' ? 'page' : undefined}>🇨🇿</a>
-  <a href="/" lang="en" aria-label="English" aria-current={lang === 'en' ? 'page' : undefined}>🇬🇧</a>
-  <a href="/de/" lang="de" aria-label="Deutsch" aria-current={lang === 'de' ? 'page' : undefined}>🇩🇪</a>
+  <a
+    href="/cs/"
+    lang="cs"
+    aria-label="Čeština"
+    aria-current={lang === "cs" ? "page" : undefined}>🇨🇿</a
+  >
+  <a
+    href="/"
+    lang="en"
+    aria-label="English"
+    aria-current={lang === "en" ? "page" : undefined}>🇬🇧</a
+  >
+  <a
+    href="/de/"
+    lang="de"
+    aria-label="Deutsch"
+    aria-current={lang === "de" ? "page" : undefined}>🇩🇪</a
+  >
 </nav>
 
 <style>
