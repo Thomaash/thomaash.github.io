@@ -40,14 +40,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content={pageUrl} />
 
-  <meta property="twitter:card" content="summary" />
-  <meta property="twitter:description" content={$t("meta_description")} />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content={$t("meta_description")} />
   <meta
-    property="twitter:image"
+    name="twitter:image"
     content="https://www.gravatar.com/avatar/576687db7917f8e9a28073d225b7a64f?s=600"
   />
-  <meta property="twitter:title" content={$t("meta_title")} />
-  <meta property="twitter:url" content={pageUrl} />
+  <meta name="twitter:title" content={$t("meta_title")} />
+  <meta name="twitter:url" content={pageUrl} />
 
   {@html `<script type="application/ld+json">${JSON.stringify({
     "@type": "WebSite",
