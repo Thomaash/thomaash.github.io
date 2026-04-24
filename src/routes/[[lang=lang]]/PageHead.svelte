@@ -56,5 +56,5 @@
     name: "vycital.eu",
     inLanguage: lang,
     "@context": "https://schema.org",
-  })}</script>`}
+  }).replace(/</g, "\\u003c")}</script>`}
 </svelte:head>
