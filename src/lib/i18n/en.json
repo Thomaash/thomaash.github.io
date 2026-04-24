@@ -16,6 +16,11 @@
   "bluesky_desc": "Feel free to send me a DM.",
   "github_desc": "My FOSS contributions and personal projects.",
   "linkedin_desc": "You can message me here. I also have my work experience listed out.",
-  "meta_title": "Tomáš Vyčítal",
-  "meta_description": "TypeScript developer focused on web frontends with Vue 3 and Nuxt 4. FOSS contributor and maintainer. Projects and contact."
+  "page_title": "Tomáš Vyčítal",
+  "og_title": "Tomáš Vyčítal",
+  "twitter_title": "Tomáš Vyčítal",
+  "jsonld_headline": "Tomáš Vyčítal",
+  "page_description": "TypeScript developer focused on web frontends with Vue 3 and Nuxt 4. FOSS contributor and maintainer. Projects and contact.",
+  "og_description": "TypeScript developer focused on web frontends with Vue 3 and Nuxt 4. FOSS contributor and maintainer. Projects and contact.",
+  "twitter_description": "TypeScript developer focused on web frontends with Vue 3 and Nuxt 4. FOSS contributor and maintainer. Projects and contact."
 }

@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-  <title>{$t("meta_title")}</title>
+  <title>{$t("page_title")}</title>
 
   <link
     rel="icon"
@@ -29,31 +29,31 @@
   <link rel="alternate" hreflang="de" href="https://www.vycital.eu/de/" />
   <link rel="alternate" hreflang="x-default" href="https://www.vycital.eu/" />
 
-  <meta name="description" content={$t("meta_description")} />
+  <meta name="description" content={$t("page_description")} />
 
-  <meta property="og:description" content={$t("meta_description")} />
+  <meta property="og:description" content={$t("og_description")} />
   <meta
     property="og:image"
     content="https://www.gravatar.com/avatar/576687db7917f8e9a28073d225b7a64f?s=600"
   />
   <meta property="og:locale" content={locale} />
   <meta property="og:site_name" content="vycital.eu" />
-  <meta property="og:title" content={$t("meta_title")} />
+  <meta property="og:title" content={$t("og_title")} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={pageUrl} />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description" content={$t("meta_description")} />
+  <meta name="twitter:description" content={$t("twitter_description")} />
   <meta
     name="twitter:image"
     content="https://www.gravatar.com/avatar/576687db7917f8e9a28073d225b7a64f?s=600"
   />
-  <meta name="twitter:title" content={$t("meta_title")} />
+  <meta name="twitter:title" content={$t("twitter_title")} />
   <meta name="twitter:url" content={pageUrl} />
 
   {@html `<script type="application/ld+json">${JSON.stringify({
     "@type": "WebSite",
-    headline: $t("meta_title"),
+    headline: $t("jsonld_headline"),
     url: pageUrl,
     name: "vycital.eu",
     inLanguage: lang,
