@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3",
@@ -17,6 +18,9 @@
     "svelte": "^5",
     "typescript": "^5",
     "vite": "^8"
+  },
+  "lint-staged": {
+    "*.{svelte,ts,js,json,css,html,md}": "prettier --write"
   },
   "type": "module",
   "packageManager": "pnpm@10.33.0"
