@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "tolgee pull || true && vite build",
     "preview": "vite preview",
     "prepare": "husky"
   },
@@ -12,6 +12,9 @@
     "@sveltejs/adapter-static": "^3",
     "@sveltejs/kit": "^2",
     "@tailwindcss/vite": "^4.2.4",
+    "@tolgee/cli": "^2.16.1",
+    "@tolgee/format-icu": "^7.0.0",
+    "@tolgee/svelte": "^7.0.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",

@@ -1,0 +1,16 @@
+{
+  "apiUrl": "https://app.tolgee.io",
+  "format": "JSON_ICU",
+  "pull": {
+    "path": "./src/lib/i18n",
+    "delimiter": ""
+  },
+  "push": {
+    "files": [
+      {
+        "path": "./src/lib/i18n/*.json",
+        "language": "{languageTag}.json"
+      }
+    ]
+  }
+}
