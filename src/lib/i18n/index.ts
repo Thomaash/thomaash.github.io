@@ -1,30 +1,14 @@
-import en from "./en.json";
-import cs from "./cs.json";
-import de from "./de.json";
-
-type TranslationKey = keyof typeof en;
-
-const translations: Record<string, Record<string, string>> = { en, cs, de };
-
-/**
- * Get a translated string for the given language and key.
- * Falls back to English if the key is not found in the requested language.
- */
-export function t(lang: string, key: TranslationKey): string {
-  return translations[lang]?.[key] ?? translations["en"][key] ?? key;
-}
-
 const localeMap: Record<string, string> = {
-  en: "en_US",
-  cs: "cs_CZ",
-  de: "de_DE",
+  en: "en-US",
+  cs: "cs-CZ",
+  de: "de-DE",
 };
 
 /**
- * Get the full locale string (e.g. "en_US") for a given language code.
+ * Get the full locale string (e.g. "en-US") for a given language code.
  */
 export function getLocale(lang: string): string {
-  return localeMap[lang] ?? "en_US";
+  return localeMap[lang] ?? "en-US";
 }
 
 /**

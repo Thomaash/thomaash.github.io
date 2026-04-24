@@ -1,3 +1,4 @@
+/.env.development.local
 /.pnpm-store/
 /.svelte-kit/
 /build/
