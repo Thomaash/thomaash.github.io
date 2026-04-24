@@ -54,48 +54,68 @@
   })}</script>`}
 </svelte:head>
 
-<h1>
+<h1 class="text-[4rem] my-[14rem] mx-auto max-w-[30em] text-center">
   {t(lang, "greeting")}
-  <ruby>Tomáš<rp>(</rp><rt>ˈtomaːʃ</rt><rp>)</rp></ruby>
-  <ruby>Vyčítal<rp>(</rp><rt>ˈvɪtʃiːtal</rt><rp>)</rp></ruby>
+  <ruby class="whitespace-nowrap"
+    >Tomáš<rp>(</rp><rt class="text-base">ˈtomaːʃ</rt><rp>)</rp></ruby
+  >
+  <ruby class="whitespace-nowrap"
+    >Vyčítal<rp>(</rp><rt class="text-base">ˈvɪtʃiːtal</rt><rp>)</rp></ruby
+  >
 </h1>
 
-<p>
+<p class="text-base my-8 mx-auto max-w-[30em]">
   {t(lang, "bio")}
 </p>
 
-<div class="card-grid">
-  <div class="card">
-    <h2>{t(lang, "email_heading")}</h2>
-    <p>{t(lang, "email_desc")}</p>
-    <a rel="noopener" href="mailto:tomas@vycital.eu">{t(lang, "email_label")}</a
+<div
+  class="grid grid-cols-[repeat(auto-fit,minmax(16em,1fr))] gap-6 max-w-[60em] my-8 mx-auto"
+>
+  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+    <h2 class="text-[1.1rem] mt-0 mb-2">{t(lang, "email_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">{t(lang, "email_desc")}</p>
+    <a class="mt-auto" rel="noopener" href="mailto:tomas@vycital.eu"
+      >{t(lang, "email_label")}</a
     >
   </div>
-  <div class="card">
-    <h2>{t(lang, "mastodon_heading")}</h2>
-    <p>{t(lang, "mastodon_desc")}</p>
-    <a rel="noopener me" href="https://toot.community/@tomina"
+  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+    <h2 class="text-[1.1rem] mt-0 mb-2">{t(lang, "mastodon_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {t(lang, "mastodon_desc")}
+    </p>
+    <a class="mt-auto" rel="noopener me" href="https://toot.community/@tomina"
       >{t(lang, "mastodon_label")}</a
     >
   </div>
-  <div class="card">
-    <h2>{t(lang, "bluesky_heading")}</h2>
-    <p>{t(lang, "bluesky_desc")}</p>
-    <a rel="noopener me" href="https://bsky.app/profile/vycital.eu"
-      >{t(lang, "bluesky_label")}</a
+  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+    <h2 class="text-[1.1rem] mt-0 mb-2">{t(lang, "bluesky_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {t(lang, "bluesky_desc")}
+    </p>
+    <a
+      class="mt-auto"
+      rel="noopener me"
+      href="https://bsky.app/profile/vycital.eu">{t(lang, "bluesky_label")}</a
     >
   </div>
-  <div class="card">
-    <h2>{t(lang, "github_heading")}</h2>
-    <p>{t(lang, "github_desc")}</p>
-    <a rel="noopener me" href="https://github.com/Thomaash"
+  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+    <h2 class="text-[1.1rem] mt-0 mb-2">{t(lang, "github_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {t(lang, "github_desc")}
+    </p>
+    <a class="mt-auto" rel="noopener me" href="https://github.com/Thomaash"
       >{t(lang, "github_label")}</a
     >
   </div>
-  <div class="card">
-    <h2>{t(lang, "linkedin_heading")}</h2>
-    <p>{t(lang, "linkedin_desc")}</p>
-    <a rel="noopener me" href="https://www.linkedin.com/in/tomas-vycital"
+  <div class="bg-white/8 shadow-[0_2px_8px_rgba(0,0,0,0.2)] p-6 flex flex-col">
+    <h2 class="text-[1.1rem] mt-0 mb-2">{t(lang, "linkedin_heading")}</h2>
+    <p class="text-base m-0 mb-4 max-w-none flex-1">
+      {t(lang, "linkedin_desc")}
+    </p>
+    <a
+      class="mt-auto"
+      rel="noopener me"
+      href="https://www.linkedin.com/in/tomas-vycital"
       >{t(lang, "linkedin_label")}</a
     >
   </div>
