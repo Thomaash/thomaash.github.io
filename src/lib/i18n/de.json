@@ -11,11 +11,11 @@
   "bluesky_label": "@vycital.eu",
   "github_label": "@Thomaash",
   "linkedin_label": "Tomáš Vyčítal",
-  "email_desc": "Schreiben Sie mir — ich antworte immer.",
-  "mastodon_desc": "Folgen Sie mir im Fediverse.",
-  "bluesky_desc": "Finden Sie mich auf Bluesky.",
-  "github_desc": "Schauen Sie sich meine Open-Source-Projekte und Beiträge an.",
-  "linkedin_desc": "Vernetzen Sie sich für karrierebezogene Anfragen.",
+  "email_desc": "Der direkteste und zuverlässigste Weg, mich zu erreichen.",
+  "mastodon_desc": "Schreib mir gerne eine DM.",
+  "bluesky_desc": "Schreib mir gerne eine DM.",
+  "github_desc": "Meine FOSS-Beiträge und persönliche Projekte.",
+  "linkedin_desc": "Hier kannst du mir eine Nachricht schreiben. Außerdem findest du hier meinen beruflichen Werdegang.",
   "meta_title": "Tomáš Vyčítal",
   "meta_description": "Tomáš Vyčítal"
 }
