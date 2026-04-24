@@ -19,6 +19,11 @@
   />
   <link rel="canonical" href={pageUrl} />
 
+  <link rel="alternate" hreflang="en" href="http://www.vycital.eu/" />
+  <link rel="alternate" hreflang="cs" href="http://www.vycital.eu/cs/" />
+  <link rel="alternate" hreflang="de" href="http://www.vycital.eu/de/" />
+  <link rel="alternate" hreflang="x-default" href="http://www.vycital.eu/" />
+
   <meta property="og:description" content={t(lang, 'meta_description')} />
   <meta
     property="og:image"
