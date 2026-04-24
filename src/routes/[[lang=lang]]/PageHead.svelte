@@ -29,6 +29,8 @@
   <link rel="alternate" hreflang="de" href="https://www.vycital.eu/de/" />
   <link rel="alternate" hreflang="x-default" href="https://www.vycital.eu/" />
 
+  <meta name="description" content={$t("meta_description")} />
+
   <meta property="og:description" content={$t("meta_description")} />
   <meta
     property="og:image"
