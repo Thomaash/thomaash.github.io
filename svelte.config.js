@@ -5,7 +5,7 @@ const config = {
   kit: {
     adapter: adapter(),
     prerender: {
-      entries: ["/", "/cs", "/de", "/pd", "/gd", "/ef", "/sf", "/md", "/inbox"],
+      entries: ["/", "/cs", "/de", "/pd", "/gd", "/ef", "/md", "/file-drop"],
     },
   },
 };
