@@ -1,5 +1,9 @@
 {
-  "greeting": "Hi there, I'm <ruby>Tomáš<rp>(</rp><rt>ˈtomaːʃ</rt><rp>)</rp></ruby> <ruby>Vyčítal<rp>(</rp><rt>ˈvɪtʃiːtal</rt><rp>)</rp></ruby>",
+  "greeting_eyebrow": "Hi there, I'm",
+  "name_given": "Tomáš",
+  "name_family": "Vyčítal",
+  "name_given_pronunciation": "ˈtomaːʃ",
+  "name_family_pronunciation": "ˈvɪtʃiːtal",
   "bio": "TypeScript developer with focus on web frontends using Vue\u00a03 and Nuxt\u00a04, occasional FOSS contributor and maintainer.",
   "email_heading": "Email",
   "mastodon_heading": "Mastodon",

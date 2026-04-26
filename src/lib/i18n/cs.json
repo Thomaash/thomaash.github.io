@@ -1,5 +1,9 @@
 {
-  "greeting": "Ahoj, já jsem Tomáš Vyčítal",
+  "greeting_eyebrow": "Ahoj, já jsem",
+  "name_given": "Tomáš",
+  "name_family": "Vyčítal",
+  "name_given_pronunciation": "",
+  "name_family_pronunciation": "",
   "bio": "Vývojář TypeScriptu se zaměřením na webové frontendy ve Vue\u00a03 a Nuxt\u00a04, příležitostný přispěvatel a správce FOSS.",
   "email_heading": "E-mail",
   "mastodon_heading": "Mastodon",
