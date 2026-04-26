@@ -2,7 +2,7 @@
   let { lang }: { lang: string } = $props();
 </script>
 
-<nav class="fixed top-4 right-4" aria-label="Language">
+<nav class="absolute top-4 right-4" aria-label="Language">
   <a
     class="no-underline text-base ml-2"
     href="/cs/"
